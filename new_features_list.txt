@@ -1,0 +1,17 @@
+New Features Created:
+==============================
+1. TotalSF
+2. TotalBath
+3. TotalQualScore
+4. TotalFinishedSF
+5. TotalUnfinishedSF
+6. Slope_to_LotArea
+7. HouseAge
+8. RemodAge
+9. IsNew
+10. HasGarage
+11. HasFireplace
+12. HasPorch
+13. Quality_x_Area
+14. Quality_x_Condition
+15. NbhdQual

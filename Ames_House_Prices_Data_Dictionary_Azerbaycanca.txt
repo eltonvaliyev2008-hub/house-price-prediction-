@@ -1,0 +1,523 @@
+MSSubClass: Satışda olan yaşayış binasının növünü göstərir.
+
+        20	1 mərtəbəli, 1946 və daha yeni, bütün üslublar
+        30	1 mərtəbəli, 1945 və daha köhnə
+        40	Hazır çardaqlı 1 mərtəbəli, bütün yaşlar
+        45	1,5 mərtəbəli — tamamlanmamış, bütün yaşlar
+        50	1,5 mərtəbəli — tamamlanmış, bütün yaşlar
+        60	2 mərtəbəli, 1946 və daha yeni
+        70	2 mərtəbəli, 1945 və daha köhnə
+        75	2,5 mərtəbəli, bütün yaşlar
+        80	Bölünmüş və ya çoxsəviyyəli
+        85	Bölünmüş giriş səviyyəsi
+        90	Duplex — bütün üslub və yaşlar
+       120	1 mərtəbəli PUD (Planlaşdırılmış yaşayış kompleksi) — 1946 və daha yeni
+       150	1,5 mərtəbəli PUD — bütün yaşlar
+       160	2 mərtəbəli PUD — 1946 və daha yeni
+       180	PUD — çoxsəviyyəli, bölünmüş səviyyə/giriş daxil olmaqla
+       190	2 ailəli yaşayışa çevrilmə — bütün üslub və yaşlar
+
+MSZoning: Satışın ümumi zonalaşdırma təsnifatını göstərir.
+		
+       A	Kənd təsərrüfatı
+       C	Kommersiya
+       FV	Üzən kənd yaşayış zonası
+       I	Sənaye
+       RH	Yüksək sıxlıqlı yaşayış
+       RL	Aşağı sıxlıqlı yaşayış
+       RP	Aşağı sıxlıqlı yaşayış parkı 
+       RM	Orta sıxlıqlı yaşayış
+	
+LotFrontage: Əmlaka bitişik küçə tərəfinin uzunluğu (futla)
+
+LotArea: Torpaq sahəsinin ölçüsü (kvadrat futla)
+
+Street: Əmlaka yol girişinin növü
+
+       Grvl	Çınqıl	
+       Pave	Asfaltlanmış
+       	
+Alley: Əmlaka dalan girişinin növü
+
+       Grvl	Çınqıl
+       Pave	Asfaltlanmış
+       NA	Dalan girişi yoxdur
+		
+LotShape: Əmlakın ümumi forması
+
+       Reg	Müntəzəm	
+       IR1	Bir qədər qeyri-müntəzəm
+       IR2	Orta dərəcədə qeyri-müntəzəm
+       IR3	Qeyri-müntəzəm
+       
+LandContour: Əmlakın relyefinin hamarlığı
+
+       Lvl	Demək olar ki, düz/səviyyəli	
+       Bnk	Maili — küçə səviyyəsindən binaya doğru sürətli və nəzərəçarpan yüksəliş
+       HLS	Təpəlik — bir tərəfdən digər tərəfə nəzərəçarpan meyl
+       Low	Çökəklik
+		
+Utilities: Mövcud kommunal xidmətlərin növü
+		
+       AllPub	Bütün ictimai kommunal xidmətlər (elektrik, qaz, su və kanalizasiya)	
+       NoSewr	Elektrik, qaz və su (septik çən)
+       NoSeWa	Yalnız elektrik və qaz
+       ELO	Yalnız elektrik	
+	
+LotConfig: Torpaq sahəsinin yerləşmə konfiqurasiyası
+
+       Inside	Daxili sahə
+       Corner	Künc sahə
+       CulDSac	Dalana çıxan küçənin sonundakı sahə
+       FR2	Əmlakın 2 tərəfdən küçə çıxışı
+       FR3	Əmlakın 3 tərəfdən küçə çıxışı
+	
+LandSlope: Əmlakın meyilliliyi
+		
+       Gtl	Yüngül meyl
+       Mod	Orta meyl	
+       Sev	Kəskin meyl
+	
+Neighborhood: Ames şəhəri daxilində fiziki yerləşmə əraziləri
+
+       Blmngtn	Bloomington Heights
+       Blueste	Bluestem
+       BrDale	Briardale
+       BrkSide	Brookside
+       ClearCr	Clear Creek
+       CollgCr	College Creek
+       Crawfor	Crawford
+       Edwards	Edwards
+       Gilbert	Gilbert
+       IDOTRR	Iowa DOT and Rail Road
+       MeadowV	Meadow Village
+       Mitchel	Mitchell
+       Names	North Ames
+       NoRidge	Northridge
+       NPkVill	Northpark Villa
+       NridgHt	Northridge Heights
+       NWAmes	Northwest Ames
+       OldTown	Old Town
+       SWISU	South & West of Iowa State University
+       Sawyer	Sawyer
+       SawyerW	Sawyer West
+       Somerst	Somerset
+       StoneBr	Stone Brook
+       Timber	Timberland
+       Veenker	Veenker
+			
+Condition1: Müxtəlif obyekt və şəraitlərə yaxınlıq
+	
+       Artery	Magistral küçəyə bitişik
+       Feedr	Köməkçi küçəyə bitişik	
+       Norm	Normal	
+       RRNn	Şimal-Cənub dəmir yolundan 200 fut daxilində
+       RRAn	Şimal-Cənub dəmir yoluna bitişik
+       PosN	Müsbət ərazi xüsusiyyətinə yaxın — park, yaşıl zona və s.
+       PosA	Müsbət ərazi xüsusiyyətinə bitişik
+       RRNe	Şərq-Qərb dəmir yolundan 200 fut daxilində
+       RRAe	Şərq-Qərb dəmir yoluna bitişik
+	
+Condition2: Müxtəlif obyekt və şəraitlərə yaxınlıq (birdən çoxu mövcuddursa)
+		
+       Artery	Magistral küçəyə bitişik
+       Feedr	Köməkçi küçəyə bitişik	
+       Norm	Normal	
+       RRNn	Şimal-Cənub dəmir yolundan 200 fut daxilində
+       RRAn	Şimal-Cənub dəmir yoluna bitişik
+       PosN	Müsbət ərazi xüsusiyyətinə yaxın — park, yaşıl zona və s.
+       PosA	Müsbət ərazi xüsusiyyətinə bitişik
+       RRNe	Şərq-Qərb dəmir yolundan 200 fut daxilində
+       RRAe	Şərq-Qərb dəmir yoluna bitişik
+	
+BldgType: Yaşayış binasının növü
+		
+       1Fam	Ayrı yerləşən tək ailəli ev	
+       2FmCon	İki ailəli yaşayışa çevrilmiş; əvvəlcə tək ailəli ev kimi tikilib
+       Duplx	Duplex
+       TwnhsE	Townhouse-un kənar bölməsi
+       TwnhsI	Townhouse-un daxili bölməsi
+	
+HouseStyle: Yaşayış binasının üslubu
+	
+       1Story	1 mərtəbəli
+       1.5Fin	1,5 mərtəbəli: 2-ci səviyyə tamamlanıb
+       1.5Unf	1,5 mərtəbəli: 2-ci səviyyə tamamlanmayıb
+       2Story	2 mərtəbəli
+       2.5Fin	2,5 mərtəbəli: 2-ci səviyyə tamamlanıb
+       2.5Unf	2,5 mərtəbəli: 2-ci səviyyə tamamlanmayıb
+       SFoyer	Bölünmüş giriş səviyyəsi
+       SLvl	Bölünmüş səviyyə
+	
+OverallQual: Evin ümumi material və tamamlanma keyfiyyətini qiymətləndirir
+
+       10	Çox əla
+       9	Əla
+       8	Çox yaxşı
+       7	Yaxşı
+       6	Ortadan yüksək
+       5	Orta
+       4	Ortadan aşağı
+       3	Kafi
+       2	Zəif
+       1	Çox zəif
+	
+OverallCond: Evin ümumi vəziyyətini qiymətləndirir
+
+       10	Çox əla
+       9	Əla
+       8	Çox yaxşı
+       7	Yaxşı
+       6	Ortadan yüksək	
+       5	Orta
+       4	Ortadan aşağı	
+       3	Kafi
+       2	Zəif
+       1	Çox zəif
+		
+YearBuilt: İlkin tikinti tarixi
+
+YearRemodAdd: Təmir/yenidənqurma tarixi (təmir və ya əlavə edilməyibsə, tikinti tarixi ilə eynidir)
+
+RoofStyle: Damın növü
+
+       Flat	Düz
+       Gable	İki maili səthli
+       Gambrel	Anbar tipli maili dam
+       Hip	Dörd maili səthli
+       Mansard	Mansard
+       Shed	Tək maili
+		
+RoofMatl: Dam örtüyünün materialı
+
+       ClyTile	Gil və ya kirəmit
+       CompShg	Standart (kompozit) şingl
+       Membran	Membran
+       Metal	Metal
+       Roll	Rulon örtük
+       Tar&Grv	Çınqıl və bitum
+       WdShake	Taxta şingl
+       WdShngl	Taxta şingl örtük
+		
+Exterior1st: Evin xarici örtüyü
+
+       AsbShng	Asbest şingl
+       AsphShn	Asfalt şingl
+       BrkComm	Adi kərpic
+       BrkFace	Dekorativ kərpic üzlük
+       CBlock	Şlak blok
+       CemntBd	Sement lövhə
+       HdBoard	Sərt lövhə
+       ImStucc	Süni stukko
+       MetalSd	Metal üzlük
+       Other	Digər
+       Plywood	Faner
+       PreCast	Prefabrik tökmə material	
+       Stone	Daş
+       Stucco	Stukko
+       VinylSd	Vinil üzlük
+       Wd Sdng	Wood Siding
+       WdShing	Taxta şingl örtük
+	
+Exterior2nd: Evin xarici örtüyü (birdən çox material varsa)
+
+       AsbShng	Asbest şingl
+       AsphShn	Asfalt şingl
+       BrkComm	Adi kərpic
+       BrkFace	Dekorativ kərpic üzlük
+       CBlock	Şlak blok
+       CemntBd	Sement lövhə
+       HdBoard	Sərt lövhə
+       ImStucc	Süni stukko
+       MetalSd	Metal üzlük
+       Other	Digər
+       Plywood	Faner
+       PreCast	Prefabrik tökmə material
+       Stone	Daş
+       Stucco	Stukko
+       VinylSd	Vinil üzlük
+       Wd Sdng	Wood Siding
+       WdShing	Taxta şingl örtük
+	
+MasVnrType: Hörgü üzlüyünün növü
+
+       BrkCmn	Adi kərpic
+       BrkFace	Dekorativ kərpic üzlük
+       CBlock	Şlak blok
+       None	None
+       Stone	Daş
+	
+MasVnrArea: Hörgü üzlüyünün sahəsi (kvadrat futla)
+
+ExterQual: Xarici materialın keyfiyyətini qiymətləndirir
+		
+       Ex	Əla
+       Gd	Yaxşı
+       TA	Average/Typical
+       Fa	Kafi
+       Po	Zəif
+		
+ExterCond: Xarici materialın hazırkı vəziyyətini qiymətləndirir
+		
+       Ex	Əla
+       Gd	Yaxşı
+       TA	Average/Typical
+       Fa	Kafi
+       Po	Zəif
+		
+Foundation: Bünövrənin növü
+		
+       BrkTil	Kərpic və kirəmit
+       CBlock	Şlak blok
+       PConc	Tökmə beton	
+       Slab	Beton plitə
+       Stone	Daş
+       Wood	Taxta
+		
+BsmtQual: Zirzəminin hündürlüyünü qiymətləndirir
+
+       Ex	Əla (100+ düym)	
+       Gd	Yaxşı (90–99 düym)
+       TA	Tipik (80–89 düym)
+       Fa	Kafi (70–79 düym)
+       Po	Zəif (70 düymdən az
+       NA	Zirzəmi yoxdur
+		
+BsmtCond: Zirzəminin ümumi vəziyyətini qiymətləndirir
+
+       Ex	Əla
+       Gd	Yaxşı
+       TA	Tipik — cüzi nəmlik mümkündür
+       Fa	Kafi — nəmlik, bəzi çatlar və ya çökmə
+       Po	Zəif — ciddi çatlar, çökmə və ya nəmlik
+       NA	Zirzəmi yoxdur
+	
+BsmtExposure: Zirzəminin açıq və ya bağ səviyyəsindəki divarlarını göstərir
+
+       Gd	Yaxşı açıq görünüş
+       Av	Orta açıq görünüş (bölünmüş səviyyələr və ya girişlər adətən orta və ya daha yüksəkdir)	
+       Mn	Mimimum Exposure
+       No	Açıq görünüş yoxdur
+       NA	Zirzəmi yoxdur
+	
+BsmtFinType1: Zirzəminin tamamlanmış sahəsinin reytinqi
+
+       GLQ	Yaxşı yaşayış sahəsi
+       ALQ	Orta yaşayış sahəsi
+       BLQ	Ortadan aşağı yaşayış sahəsi	
+       Rec	Orta istirahət otağı
+       LwQ	Aşağı keyfiyyət
+       Unf	Tamamlanmamış
+       NA	Zirzəmi yoxdur
+		
+BsmtFinSF1: 1-ci tip tamamlanmış sahə (kvadrat futla)
+
+BsmtFinType2: Zirzəminin tamamlanmış sahəsinin reytinqi (bir neçə tip varsa)
+
+       GLQ	Yaxşı yaşayış sahəsi
+       ALQ	Orta yaşayış sahəsi
+       BLQ	Ortadan aşağı yaşayış sahəsi	
+       Rec	Orta istirahət otağı
+       LwQ	Aşağı keyfiyyət
+       Unf	Tamamlanmamış
+       NA	Zirzəmi yoxdur
+
+BsmtFinSF2: 2-ci tip tamamlanmış sahə (kvadrat futla)
+
+BsmtUnfSF: Zirzəminin tamamlanmamış sahəsi (kvadrat futla)
+
+TotalBsmtSF: Zirzəminin ümumi sahəsi (kvadrat futla)
+
+Heating: İsitmə növü
+		
+       Floor	Döşəmə sobası
+       GasA	Qazla işləyən isti hava sobası
+       GasW	Qazla isti su və ya buxar isitmə
+       Grav	Qravitasiya sobası	
+       OthW	Qazdan başqa isti su və ya buxar isitmə
+       Wall	Divar sobası
+		
+HeatingQC: İsitmənin keyfiyyəti və vəziyyəti
+
+       Ex	Əla
+       Gd	Yaxşı
+       TA	Average/Typical
+       Fa	Kafi
+       Po	Zəif
+		
+CentralAir: Mərkəzi kondisioner
+
+       N	No
+       Y	Yes
+		
+Electrical: Elektrik sistemi
+
+       SBrkr	Standart avtomatik qoruyucular və Romex naqilləri
+       FuseA	60 AMP-dən çox qoruyucu qutusu və tam Romex naqilləri (orta)	
+       FuseF	60 AMP qoruyucu qutusu və əsasən Romex naqilləri (kafi)
+       FuseP	60 AMP qoruyucu qutusu və əsasən köhnə knob-and-tube naqilləri (zəif)
+       Mix	Qarışıq
+		
+1stFlrSF: 1-ci mərtəbənin sahəsi (kvadrat futla)
+ 
+2ndFlrSF: Second floor square feet
+
+LowQualFinSF: Aşağı keyfiyyətli tamamlanmış sahə (bütün mərtəbələr, kvadrat futla)
+
+GrLivArea: Yerüstü yaşayış sahəsi (kvadrat futla)
+
+BsmtFullBath: Zirzəmidə tam hamam otaqlarının sayı
+
+BsmtHalfBath: Zirzəmidə yarım hamam otaqlarının sayı
+
+FullBath: Yerüstü tam hamam otaqlarının sayı
+
+HalfBath: Yerüstü yarım hamam otaqlarının sayı
+
+Bedroom: Yerüstü yataq otaqlarının sayı (zirzəmi yataq otaqları daxil deyil)
+
+Kitchen: Yerüstü mətbəxlərin sayı
+
+KitchenQual: Mətbəxin keyfiyyəti
+
+       Ex	Əla
+       Gd	Yaxşı
+       TA	Typical/Average
+       Fa	Kafi
+       Po	Zəif
+       	
+TotRmsAbvGrd: Yerüstü ümumi otaqların sayı (hamam otaqları daxil deyil)
+
+Functional: Evin funksionallığı (çıxılma tələb edən hal yoxdursa, tipik qəbul edilir)
+
+       Typ	Tipik funksionallıq
+       Min1	Kiçik çatışmazlıqlar 1
+       Min2	Kiçik çatışmazlıqlar 2
+       Mod	Orta çatışmazlıqlar
+       Maj1	Böyük çatışmazlıqlar 1
+       Maj2	Böyük çatışmazlıqlar 2
+       Sev	Ciddi zədələnmiş
+       Sal	Yalnız xilas edilə bilən vəziyyətdə
+		
+Fireplaces: Kaminlərin sayı
+
+FireplaceQu: Kaminin keyfiyyəti
+
+       Ex	Excellent - Exceptional Masonry Fireplace
+       Gd	Yaxşı — əsas mərtəbədə hörgü kamin
+       TA	Orta — əsas yaşayış sahəsində prefabrik kamin və ya zirzəmidə hörgü kamin
+       Fa	Kafi — zirzəmidə prefabrik kamin
+       Po	Zəif — Ben Franklin sobası
+       NA	Kamin yoxdur
+		
+GarageType: Qarajın yerləşmə yeri
+		
+       2Types	Birdən çox qaraj növü
+       Attchd	Evə bitişik
+       Basment	Zirzəmi qarajı
+       BuiltIn	Daxili qaraj (qaraj evin bir hissəsidir — adətən üstündə otaq olur)
+       CarPort	Avtomobil dayanacağı
+       Detchd	Evdən ayrı
+       NA	Qaraj yoxdur
+		
+GarageYrBlt: Qarajın tikildiyi il
+		
+GarageFinish: Qarajın daxili tamamlanma vəziyyəti
+
+       Fin	Tamamlanmış
+       RFn	Qismən tamamlanmış	
+       Unf	Tamamlanmamış
+       NA	Qaraj yoxdur
+		
+GarageCars: Qarajın avtomobil tutumu
+
+GarageArea: Qarajın sahəsi (kvadrat futla)
+
+GarageQual: Qarajın keyfiyyəti
+
+       Ex	Əla
+       Gd	Yaxşı
+       TA	Typical/Average
+       Fa	Kafi
+       Po	Zəif
+       NA	Qaraj yoxdur
+		
+GarageCond: Qarajın vəziyyəti
+
+       Ex	Əla
+       Gd	Yaxşı
+       TA	Typical/Average
+       Fa	Kafi
+       Po	Zəif
+       NA	Qaraj yoxdur
+		
+PavedDrive: Asfaltlanmış avtomobil yolu
+
+       Y	Asfaltlanmış 
+       P	Qismən asfaltlanmış
+       N	Torpaq/çınqıl
+		
+WoodDeckSF: Taxta terras sahəsi (kvadrat futla)
+
+OpenPorchSF: Açıq eyvan sahəsi (kvadrat futla)
+
+EnclosedPorch: Qapalı eyvan sahəsi (kvadrat futla)
+
+3SsnPorch: Üç mövsümlü eyvan sahəsi (kvadrat futla)
+
+ScreenPorch: Torlu eyvan sahəsi (kvadrat futla)
+
+PoolArea: Hovuz sahəsi (kvadrat futla)
+
+PoolQC: Hovuzun keyfiyyəti
+		
+       Ex	Əla
+       Gd	Yaxşı
+       TA	Average/Typical
+       Fa	Kafi
+       NA	Hovuz yoxdur
+		
+Fence: Hasarın keyfiyyəti
+		
+       GdPrv	Yaxşı məxfilik
+       MnPrv	Minimum məxfilik
+       GdWo	Yaxşı taxta
+       MnWw	Minimum taxta/tel
+       NA	Hasar yoxdur
+	
+MiscFeature: Digər kateqoriyalarda göstərilməyən əlavə xüsusiyyət
+		
+       Elev	Lift
+       Gar2	2-ci qaraj (qaraj bölməsində təsvir edilməyibsə)
+       Othr	Digər
+       Shed	Anbar (100 kvadrat futdan çox)
+       TenC	Tennis kortu
+       NA	None
+		
+MiscVal: Əlavə xüsusiyyətin dollarla dəyəri
+
+MoSold: Satış ayı (AA)
+
+YrSold: Satış ili (İİİİ)
+
+SaleType: Satışın növü
+		
+       WD	Zəmanətli sənəd — standart
+       CWD	Zəmanətli sənəd — nağd
+       VWD	Zəmanətli sənəd — VA krediti
+       New	Ev yenicə tikilib və satılıb
+       COD	Məhkəmə məmuru sənədi/miras əmlakı
+       Con	Müqavilə — 15% ilkin ödəniş, standart şərtlər
+       ConLw	Müqavilə — aşağı ilkin ödəniş və aşağı faiz
+       ConLI	Müqavilə — aşağı faiz
+       ConLD	Müqavilə — aşağı ilkin ödəniş
+       Oth	Digər
+		
+SaleCondition: Satışın vəziyyəti
+
+       Normal	Normal satış
+       Abnorml	Qeyri-adi satış — barter, girovun tutulması, qısa satış
+       AdjLand	Bitişik torpağın alınması
+       Alloca	Allocation - two linked properties with separate deeds, typically condo with a garage unit	
+       Family	Ailə üzvləri arasında satış
+       Partial	Ev son qiymətləndirmə zamanı tamamlanmamışdı (yeni evlərlə əlaqəli)
