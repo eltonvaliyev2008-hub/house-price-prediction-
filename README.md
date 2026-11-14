@@ -67,7 +67,9 @@ RMSE was calculated on the logarithmic target scale. Lower RMSE values indicate 
 | Random Forest | 0.1242 |
 | **Blending (ElasticNet + Lasso + XGBoost + LightGBM)** | **0.1088** |
 
-![Model Comparison](images/model_comparison.png)
+<p align="center">
+  <img src="images/model_comparison.png" alt="Model Comparison" width="800">
+</p>
 
 ### Hyperparameter Optimization
 
