@@ -67,6 +67,8 @@ RMSE was calculated on the logarithmic target scale. Lower RMSE values indicate 
 | Random Forest | 0.1242 |
 | **Blending (ElasticNet + Lasso + XGBoost + LightGBM)** | **0.1088** |
 
+![Model Comparison](images/model_comparison.png)
+
 ### Hyperparameter Optimization
 
 Hyperparameters were optimized using GridSearchCV. The tuned models were then compared against their default configurations to evaluate the impact of hyperparameter optimization on model performance.
